@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4353a53b-7b12-4aff-b7d6-e9808f3a60a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/demoqa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/demoqa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/elements_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_check_icon_demoqa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_go_to_page_elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/text_visible.py" afterDir="false" />
+    <list default="true" id="4353a53b-7b12-4aff-b7d6-e9808f3a60a1" name="Changes" comment="Homework 7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +163,19 @@
       <option name="presentableId" value="Default" />
       <updated>1741723103571</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework 7">
+      <option name="closed" value="true" />
+      <created>1742400594714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742400594714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 7" />
   </component>
 </project>
