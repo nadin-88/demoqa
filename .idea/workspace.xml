@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4353a53b-7b12-4aff-b7d6-e9808f3a60a1" name="Changes" comment="Homework 9">
-      <change afterPath="$PROJECT_DIR$/pages/text_box.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_attribute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_clear.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_login_form_validate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_text_box.py" afterDir="false" />
+    <list default="true" id="4353a53b-7b12-4aff-b7d6-e9808f3a60a1" name="Changes" comment="Homework 10">
+      <change afterPath="$PROJECT_DIR$/pages/koup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/koup_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_css.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_koup/test_btn_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_webtables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/form_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text_box.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_login_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_form.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,12 +66,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_attribute.test_placeholder.executor": "Run",
+    "Python tests.Python tests for test_btn_add.test_koup_add.executor": "Run",
     "Python tests.Python tests for test_check_text.test_check_footer_text.executor": "Run",
     "Python tests.Python tests for test_check_text.test_page_elements.executor": "Run",
     "Python tests.Python tests for test_check_text.test_text_center.executor": "Run",
     "Python tests.Python tests for test_clear.test_clear.executor": "Run",
+    "Python tests.Python tests for test_css.test_text_box_submit.executor": "Run",
     "Python tests.Python tests for test_elements.test_find_elements.executor": "Run",
     "Python tests.Python tests for test_login_form.test_login_form.executor": "Run",
+    "Python tests.Python tests for test_login_form.test_state.executor": "Run",
+    "Python tests.Python tests for test_login_form.test_state_2.executor": "Run",
+    "Python tests.Python tests for test_login_form.test_state_3.executor": "Run",
     "Python tests.Python tests for test_login_form_validate.test_login_form_validate.executor": "Run",
     "Python tests.Python tests for test_navigation.test_navigation.executor": "Run",
     "Python tests.Python tests for test_page_dialogs.test_modal_elements.executor": "Run",
@@ -78,6 +86,8 @@
     "Python tests.Python tests for test_text_box.test_text_box.executor": "Run",
     "Python tests.Python tests for test_visible_hw.test_visible_accordion.executor": "Run",
     "Python tests.Python tests for test_visible_hw.test_visible_accordion_default.executor": "Run",
+    "Python tests.Python tests for test_webtables.test_registration_webtables.executor": "Run",
+    "Python tests.Python tests for test_webtables.test_tables.executor": "Run",
     "Python tests.Python tests in test_check_icon_demoqa.py.executor": "Run",
     "Python tests.Python tests in test_check_text.py.executor": "Run",
     "Python.confest.executor": "Run",
@@ -93,8 +103,23 @@
       <recent name="C:\Users\nadin\PycharmProjects\demoqa" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_login_form_validate.test_login_form_validate">
-    <configuration name="Python tests for test_attribute.test_placeholder" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_webtables.test_registration_webtables">
+    <configuration name="Python tests for test_btn_add.test_koup_add" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_koup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_btn_add.test_koup_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_css.test_text_box_submit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,11 +130,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_attribute.test_placeholder&quot;" />
+      <option name="_new_target" value="&quot;test_css.test_text_box_submit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_clear.test_clear" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_login_form.test_state_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,11 +145,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_clear.test_clear&quot;" />
+      <option name="_new_target" value="&quot;test_login_form.test_state_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_login_form.test_login_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_webtables.test_registration_webtables" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,47 +160,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login_form.test_login_form&quot;" />
+      <option name="_new_target" value="&quot;test_webtables.test_registration_webtables&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_login_form_validate.test_login_form_validate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_webtables.test_tables" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_hw" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login_form_validate.test_login_form_validate&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_text_box.test_text_box" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_hw" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_text_box.test_text_box&quot;" />
+      <option name="_new_target" value="&quot;test_webtables.test_tables&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_login_form_validate.test_login_form_validate" />
-        <item itemvalue="Python tests.Python tests for test_text_box.test_text_box" />
-        <item itemvalue="Python tests.Python tests for test_attribute.test_placeholder" />
-        <item itemvalue="Python tests.Python tests for test_clear.test_clear" />
-        <item itemvalue="Python tests.Python tests for test_login_form.test_login_form" />
+        <item itemvalue="Python tests.Python tests for test_webtables.test_registration_webtables" />
+        <item itemvalue="Python tests.Python tests for test_webtables.test_tables" />
+        <item itemvalue="Python tests.Python tests for test_css.test_text_box_submit" />
+        <item itemvalue="Python tests.Python tests for test_btn_add.test_koup_add" />
+        <item itemvalue="Python tests.Python tests for test_login_form.test_state_3" />
       </list>
     </recent_temporary>
   </component>
@@ -235,13 +245,22 @@
       <option name="project" value="LOCAL" />
       <updated>1742643647618</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Homework 10">
+      <option name="closed" value="true" />
+      <created>1742750144596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742750144596</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework 7" />
     <MESSAGE value="Homework 8" />
     <MESSAGE value="Homework 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 9" />
+    <MESSAGE value="Homework 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 10" />
   </component>
 </project>
