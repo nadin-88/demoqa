@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4353a53b-7b12-4aff-b7d6-e9808f3a60a1" name="Changes" comment="Homework 11">
-      <change afterPath="$PROJECT_DIR$/pages/alerts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/browser_tab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_alert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_browser_tab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_seo_meta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_alert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_modal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_sort.py" afterDir="false" />
+    <list default="true" id="4353a53b-7b12-4aff-b7d6-e9808f3a60a1" name="Changes" comment="Homework 12">
+      <change afterPath="$PROJECT_DIR$/pages/progress_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/radio_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/slider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_decor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_decor_mark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_progress_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_slider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_seo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_seo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/demoqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/demoqa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,88 +64,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_alert.test_alert.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_alert.test_alert_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_alert.test_confirm.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_alert.test_prompt.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_attribute.test_placeholder.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_browser_tab.test_browser_tab.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_btn_add.test_koup_add.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_check_alert.test_check_alert.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_check_modal.test_small_and_large_buttons.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_check_text.test_check_footer_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_check_text.test_page_elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_check_text.test_text_center.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_clear.test_clear.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_css.test_text_box_submit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_elements.test_find_elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_login_form.test_login_form.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_login_form.test_state.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_login_form.test_state_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_login_form.test_state_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_login_form_validate.test_login_form_validate.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_navigation.test_navigation.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_page_dialogs.test_modal_elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_page_dialogs.test_navigation_modal.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_seo.test_check_title_all_pages.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_seo.test_check_title_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_seo_meta.test_check_title_all_pages.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_size.test_size.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_sort.test_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_text_box.test_text_box.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_visible_hw.test_visible_accordion.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_visible_hw.test_visible_accordion_default.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_webtables.test_registration_webtables.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_webtables.test_tables.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_check_icon_demoqa.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_check_text.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.confest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nadin/PycharmProjects/demoqa&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_alert.test_alert.executor": "Run",
+    "Python tests.Python tests for test_alert.test_alert_text.executor": "Run",
+    "Python tests.Python tests for test_alert.test_confirm.executor": "Run",
+    "Python tests.Python tests for test_alert.test_prompt.executor": "Run",
+    "Python tests.Python tests for test_attribute.test_placeholder.executor": "Run",
+    "Python tests.Python tests for test_browser_tab.test_browser_tab.executor": "Run",
+    "Python tests.Python tests for test_btn_add.test_koup_add.executor": "Run",
+    "Python tests.Python tests for test_check_alert.test_check_alert.executor": "Run",
+    "Python tests.Python tests for test_check_modal.test_small_and_large_buttons.executor": "Run",
+    "Python tests.Python tests for test_check_text.test_check_footer_text.executor": "Run",
+    "Python tests.Python tests for test_check_text.test_page_elements.executor": "Run",
+    "Python tests.Python tests for test_check_text.test_text_center.executor": "Run",
+    "Python tests.Python tests for test_clear.test_clear.executor": "Run",
+    "Python tests.Python tests for test_css.test_text_box_submit.executor": "Run",
+    "Python tests.Python tests for test_decor.test_decor.executor": "Run",
+    "Python tests.Python tests for test_decor.test_decor_1.executor": "Run",
+    "Python tests.Python tests for test_elements.test_find_elements.executor": "Run",
+    "Python tests.Python tests for test_login_form.test_login_form.executor": "Run",
+    "Python tests.Python tests for test_login_form.test_state.executor": "Run",
+    "Python tests.Python tests for test_login_form.test_state_2.executor": "Run",
+    "Python tests.Python tests for test_login_form.test_state_3.executor": "Run",
+    "Python tests.Python tests for test_login_form_validate.test_login_form_validate.executor": "Run",
+    "Python tests.Python tests for test_navigation.test_navigation.executor": "Run",
+    "Python tests.Python tests for test_page_dialogs.test_modal_elements.executor": "Run",
+    "Python tests.Python tests for test_page_dialogs.test_navigation_modal.executor": "Run",
+    "Python tests.Python tests for test_progress_bar.test_progress_bar.executor": "Run",
+    "Python tests.Python tests for test_seo.test_check_title_all_pages.executor": "Run",
+    "Python tests.Python tests for test_seo.test_check_title_demo.executor": "Run",
+    "Python tests.Python tests for test_seo_meta.test_check_title_all_pages.executor": "Run",
+    "Python tests.Python tests for test_size.test_size.executor": "Run",
+    "Python tests.Python tests for test_slider.test_slider_v3.executor": "Run",
+    "Python tests.Python tests for test_sort.test_sort.executor": "Run",
+    "Python tests.Python tests for test_text_box.test_text_box.executor": "Run",
+    "Python tests.Python tests for test_visible_hw.test_visible_accordion.executor": "Run",
+    "Python tests.Python tests for test_visible_hw.test_visible_accordion_default.executor": "Run",
+    "Python tests.Python tests for test_webtables.test_registration_webtables.executor": "Run",
+    "Python tests.Python tests for test_webtables.test_tables.executor": "Run",
+    "Python tests.Python tests in test_check_icon_demoqa.py.executor": "Run",
+    "Python tests.Python tests in test_check_text.py.executor": "Run",
+    "Python.confest.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/nadin/PycharmProjects/demoqa"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nadin\PycharmProjects\demoqa" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_sort.test_sort">
-    <configuration name="Python tests for test_check_alert.test_check_alert" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_hw" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_check_alert.test_check_alert&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_check_modal.test_small_and_large_buttons" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_hw" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_check_modal.test_small_and_large_buttons&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_seo_meta.test_check_title_all_pages" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_decor.test_decor_1">
+    <configuration name="Python tests for test_decor.test_decor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,11 +130,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_seo_meta.test_check_title_all_pages&quot;" />
+      <option name="_new_target" value="&quot;test_decor.test_decor&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_seo.test_check_title_demo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_decor.test_decor_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,7 +145,37 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_seo.test_check_title_demo&quot;" />
+      <option name="_new_target" value="&quot;test_decor.test_decor_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_progress_bar.test_progress_bar" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_progress_bar.test_progress_bar&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_slider.test_slider_v3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_slider.test_slider_v3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -193,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_decor.test_decor_1" />
+        <item itemvalue="Python tests.Python tests for test_decor.test_decor" />
+        <item itemvalue="Python tests.Python tests for test_progress_bar.test_progress_bar" />
+        <item itemvalue="Python tests.Python tests for test_slider.test_slider_v3" />
         <item itemvalue="Python tests.Python tests for test_sort.test_sort" />
-        <item itemvalue="Python tests.Python tests for test_check_alert.test_check_alert" />
-        <item itemvalue="Python tests.Python tests for test_check_modal.test_small_and_large_buttons" />
-        <item itemvalue="Python tests.Python tests for test_seo_meta.test_check_title_all_pages" />
-        <item itemvalue="Python tests.Python tests for test_seo.test_check_title_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742929393430</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Homework 12">
+      <option name="closed" value="true" />
+      <created>1743236397377</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743236397377</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,6 +293,7 @@
     <MESSAGE value="Homework 9" />
     <MESSAGE value="Homework 10" />
     <MESSAGE value="Homework 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 11" />
+    <MESSAGE value="Homework 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 12" />
   </component>
 </project>
